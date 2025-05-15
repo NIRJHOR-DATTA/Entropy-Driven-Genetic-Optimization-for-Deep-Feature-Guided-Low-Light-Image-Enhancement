@@ -21,17 +21,46 @@ Our research consists of two major phases:
 
 Run the following notebooks to apply image enhancement on respective datasets:
 
-- **LIME and DICM Datasets**  
-  👉 Run [`LIME-DICM.ipynb`](LIME-DICM.ipynb)
-
+- **DICM Dataset**  
+  👉 Run [DICM.ipynb`]
+- **DICM Dataset without local search**  
+  👉 Run [`DCIM nsga2-no local search.ipynb`]
+- **DICM Dataset with NSGA-II only**  
+  👉 Run [`DCIM-nsga2 only updated.ipynb`]
+- **DICM Dataset without adaptive mutation**  
+  👉 Run [`DCIM-no adaptive mutation.ipynb`]
+- **LIME Dataset**  
+  👉 Run [`LIME.ipynb`]
+- **LIME Dataset without local search**  
+  👉 Run [`LIME-no local search.ipynb`]
+- **LIME Dataset with NSGA-II only**  
+  👉 Run [`LIME-nsga2 only.ipynb`]
+- **LIME Dataset without adaptive mutation**  
+  👉 Run [`LIME-no adaptive mutation.ipynb`]
 - **MEF Dataset**  
-  👉 Run [`MEF Enhancement.ipynb`](MEF%20Enhancement.ipynb)
-
+  👉 Run [`MEF Enhancement-updated.ipynb`]
+- **MEF Dataset without local search**  
+  👉 Run [`MEF-no local search-updated.ipynb`]
+- **MEF Dataset with NSGA-II only**  
+  👉 Run [`MEF-NSGA2 ONLY UPDATED.ipynb`]
+- **MEF Dataset without adaptive mutation**  
+  👉 Run [`MEF-no adaptive mutation-updated.ipynb`]
 - **NPE Dataset**  
-  👉 Run [`NPE Enhancement.ipynb`](NPE%20Enhancement.ipynb)
-
+  👉 Run [`NPE Enhancement.ipynb`]
+- **NPE Dataset without local search**  
+  👉 Run [`NPE-no local search-updated.ipynb`]
+- **NPE Dataset with NSGA-II only**  
+  👉 Run [`NPE-NSGA2 ONLY-updated.ipynb`]
+- **NPE Dataset without adaptive mutation**  
+  👉 Run [`NPE-no adaptive mutation-updated.ipynb`]
 - **VV Dataset**  
-  👉 Run [`VV_enhancement.ipynb`](VV_enhancement.ipynb)
+  👉 Run [`VV_enhancement.ipynb`]
+- **VV Dataset without local search**  
+  👉 Run [`VV-no local search.ipynb`]
+- **VV Dataset with NSGA-II only**  
+  👉 Run [`VV-NSGA2 ONLY.ipynb`]
+- **VV Dataset without adaptive mutation**  
+  👉 Run [`VV-no adaptive mutation.ipynb`]
 
 ---
 
@@ -39,7 +68,11 @@ Run the following notebooks to apply image enhancement on respective datasets:
 
 To evaluate the quality of enhanced images using **BRISQUE** and **NIQE**:
 
-👉 Run [`brisque,niqe.ipynb`](brisque,niqe.ipynb)
+👉 For DICE, Run [`brisque,niqe-DICM.ipynb`]
+👉 For LIME, Run [`brisque,niqe-LIME.ipynb`]
+👉 For MEF, Run [`brisque,niqe-MEF.ipynb`]
+👉 For NPE, Run [`brisque,niqe-NPE.ipynb`]
+👉 For VV, Run [`brisque,niqe-VV.ipynb`]
 
 ---
 ## 💡 Part II – Generalization on MIT-5K Subset
